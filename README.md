@@ -148,3 +148,4 @@ NEXT_PUBLIC_CLAUDE_API_KEY=your_claude_api_key
 **バージョン**: 1.0.0  
 **最終更新**: 2025-06-17  
 **開発者**: Claude Code Assistant
+# This is a dummy line to trigger redeployment.
