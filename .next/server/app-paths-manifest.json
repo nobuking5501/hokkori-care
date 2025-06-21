@@ -1,0 +1,6 @@
+{
+  "/dashboard/page": "app/dashboard/page.js",
+  "/shifts/page": "app/shifts/page.js",
+  "/users/page": "app/users/page.js",
+  "/settings/page": "app/settings/page.js"
+}

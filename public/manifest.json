@@ -1,0 +1,27 @@
+{
+  "name": "ほっこり福祉会 業務支援アプリ",
+  "short_name": "ほっこりケア",
+  "description": "高齢者・障がい者福祉施設向けの業務支援アプリケーション",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#009999",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["healthcare", "productivity", "business"],
+  "lang": "ja",
+  "dir": "ltr"
+}

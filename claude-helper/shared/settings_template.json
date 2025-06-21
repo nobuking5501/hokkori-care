@@ -1,0 +1,116 @@
+{
+  "facility_info": {
+    "name": "【施設名を入力】",
+    "name_kana": "【施設名カナを入力】",
+    "address": "【住所を入力】",
+    "phone": "【電話番号を入力】",
+    "fax": "【FAX番号を入力】",
+    "email": "【メールアドレスを入力】",
+    "website": "【ウェブサイトURLを入力】",
+    "established_date": "【設立年月日 YYYY-MM-DD形式】",
+    "capacity": "【定員数】",
+    "service_type": "【サービス種別：生活介護/就労継続支援A型/就労継続支援B型/共同生活援助等】"
+  },
+  "director_info": {
+    "name": "【管理者名を入力】",
+    "qualification": "【資格を入力】",
+    "experience_years": "【経験年数】"
+  },
+  "staff_info": {
+    "total_count": "【総職員数】",
+    "full_time_count": "【常勤職員数】",
+    "part_time_count": "【非常勤職員数】",
+    "qualification_breakdown": {
+      "social_worker": "【社会福祉士の人数】",
+      "care_worker": "【介護福祉士の人数】",
+      "nurse": "【看護師の人数】",
+      "service_manager": "【サービス管理責任者の人数】",
+      "others": "【その他有資格者の人数】"
+    }
+  },
+  "user_info": {
+    "current_users": "【現在の利用者数】",
+    "male_count": "【男性利用者数】",
+    "female_count": "【女性利用者数】",
+    "age_breakdown": {
+      "under_20": "【20歳未満】",
+      "20_39": "【20-39歳】",
+      "40_59": "【40-59歳】",
+      "over_60": "【60歳以上】"
+    },
+    "disability_types": {
+      "intellectual": "【知的障害者数】",
+      "physical": "【身体障害者数】",
+      "mental": "【精神障害者数】",
+      "developmental": "【発達障害者数】",
+      "multiple": "【重複障害者数】"
+    }
+  },
+  "operation_info": {
+    "business_days": "【営業日：月-金/月-土等】",
+    "business_hours": "【営業時間：例 9:00-17:00】",
+    "transportation": "【送迎の有無：有/無】",
+    "meal_service": "【食事提供：有/無】",
+    "medical_care": "【医療的ケア対応：有/無】"
+  },
+  "contact_info": {
+    "emergency_contact": "【緊急連絡先】",
+    "backup_contact": "【副連絡先】",
+    "family_contact_method": "【家族連絡方法：メール/LINE/電話等】"
+  },
+  "system_settings": {
+    "timezone": "Asia/Tokyo",
+    "language": "ja",
+    "currency": "JPY",
+    "date_format": "YYYY/MM/DD",
+    "work_hours": {
+      "early_shift": "【早番時間：例 7:00-16:00】",
+      "day_shift": "【日勤時間：例 9:00-18:00】",
+      "late_shift": "【遅番時間：例 12:00-21:00】",
+      "night_shift": "【夜勤時間：例 21:00-7:00】"
+    },
+    "break_time": "【休憩時間：例 60分】",
+    "overtime_threshold": "【残業判定時間：例 8時間】"
+  },
+  "compliance_info": {
+    "prefecture": "【都道府県名】",
+    "municipality": "【市区町村名】",
+    "license_number": "【指定事業所番号】",
+    "license_date": "【指定年月日 YYYY-MM-DD形式】",
+    "inspection_frequency": "【指導監査頻度：例 年1回】",
+    "third_party_evaluation": "【第三者評価実施：有/無】"
+  },
+  "customization": {
+    "facility_specific_forms": [
+      "【施設独自のフォーム名1】",
+      "【施設独自のフォーム名2】"
+    ],
+    "additional_reports": [
+      "【追加報告書名1】",
+      "【追加報告書名2】"
+    ],
+    "special_requirements": [
+      "【特別な要件1】",
+      "【特別な要件2】"
+    ]
+  },
+  "integration_settings": {
+    "email_server": {
+      "smtp_host": "【SMTPサーバー】",
+      "smtp_port": "【SMTPポート】",
+      "username": "【メールユーザー名】",
+      "use_ssl": true
+    },
+    "external_systems": {
+      "municipality_system": "【自治体システム名】",
+      "accounting_system": "【会計システム名】",
+      "payroll_system": "【給与システム名】"
+    }
+  },
+  "_template_info": {
+    "version": "1.0",
+    "created_date": "2025-06-16",
+    "description": "障害者施設向けclaude-helperテンプレート設定ファイル",
+    "instructions": "【】内の項目を施設固有の情報に置き換えてください。不要な項目は削除してください。"
+  }
+}
